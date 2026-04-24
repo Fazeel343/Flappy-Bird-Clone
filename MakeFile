@@ -1,0 +1,6 @@
+all:
+	g++ -Isrc/include -c Flappy_Bird.cpp -o Flappy_Bird.o
+	g++ Flappy_Bird.o -o launch -Lsrc/lib -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
+
+clean:
+	rm -f Flappy_Bird.o launch
