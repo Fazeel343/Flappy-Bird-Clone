@@ -15,7 +15,7 @@ This repository contains a complete, playable clone of Flappy Bird. The game is 
 ├── launch               # Compiled executable
 └── [SFML DLLs]          # Necessary runtime libraries for Windows
 ```
-##🎮 How to Play
+## 🎮 How to Play
 The game features a dedicated Instructions Tab accessible from the main menu.
 
 1. **Press SPACE** to flap your wings and gain altitude.
@@ -24,13 +24,13 @@ The game features a dedicated Instructions Tab accessible from the main menu.
 4. **Press R** to restart immediately after a Game Over.
 5. **Have fun"" and try to beat the high score!
 
-##🛠️ Technical Features
+## 🛠️ Technical Features
 • **Custom Physics:** Implemented gravity, velocity, and jump impulses.
 • **Automated Build:** Includes a Makefile to handle complex SFML linking.
 • **UI Management:** Multiple game states including Menu, Instructions, Gameplay, and Game Over.
 • **Collision System:** Precise AABB (Axis-Aligned Bounding Box) detection.
 
-##🔧 Installation & Building
+## 🔧 Installation & Building
 **Prerequisites**
 Ensure you have a C++ compiler (like g++) and the SFML development files installed. The src/ directory in this repo is pre-configured for linking.
 1. Compile the Project
