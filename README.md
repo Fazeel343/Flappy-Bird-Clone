@@ -31,7 +31,7 @@ The game features a dedicated Instructions Tab accessible from the main menu.
 • **Collision System:** Precise AABB (Axis-Aligned Bounding Box) detection.
 
 ## 🔧 Installation & Building
-**Prerequisites**
+### Prerequisites
 Ensure you have a C++ compiler (like g++) and the SFML development files installed. The src/ directory in this repo is pre-configured for linking.
 1. Compile the Project
 Run the following command in your terminal:
